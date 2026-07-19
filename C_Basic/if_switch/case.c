@@ -7,25 +7,26 @@ int main(){
     char phepToan;
     printf("Nhap phep toan (+, -, *, /): ");
     scanf(" %c", &phepToan);
-    switch(phepToan){
-        case '+':
-            printf("Tong cua hai so la: %d\n", a + b);
-            break;
-        case '-':
-            printf("Hieu cua hai so la: %d\n", a - b);
-            break;
-        case '*':
-            printf("Tich cua hai so la: %d\n", a * b);
-            break;
-        case '/':
-            if(b != 0){        
-                printf("Thuong cua hai so la: %.2f\n", (float)a / b);
-            }else{
-                printf("Khong the chia cho 0\n");
-            }
-            break;
-        default:
-            printf("Phep toan khong hop le\n");
+    switch (phepToan)
+    {
+    case '+':
+        printf("a + b = %d\n", a + b);
+        break;
+    case '-':
+        printf("a - b = %d\n", a - b);
+        break;
+    case '*':
+        printf("a * b = %d\n", a * b);
+        break;
+    case '/':
+        if (b != 0)
+            printf("a / b = %d\n", a / b);
+        else
+            printf("Error: Division by zero is not allowed.\n");
+        break;
+    default:
+        printf("Error: Invalid operator.\n");
+        break;
     }
     return 0;
 }
