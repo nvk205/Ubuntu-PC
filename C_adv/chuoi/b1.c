@@ -22,7 +22,7 @@ int main()
     }
 
     printf("%s\n", name);
-    strcpy(&name[4], ten);
+    strcpy(&name[4], ten); // dich, nguon - chuoi dich không được là vùng nhớ hằng
     printf("%s\n", name);
     return 0;
 }
