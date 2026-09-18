@@ -16,7 +16,7 @@ int main(){
         printf("Phuong trinh vo nghiem");
     }
     else{
-        printf("Phuong trinh co nghiem x = %.2f \n", -(float)b / a);
+        printf("Phuong trinh co nghiem x = %.2f \n  ", -(float)b / a);
     }
     
     

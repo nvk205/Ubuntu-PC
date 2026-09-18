@@ -7,6 +7,8 @@ void sum3num(int x, int y, int z){
     printf("Tong 3 so: %d + %d + %d = %d\n", x, y, z, sum);
 }
 
+int sum2num()
+
 int main(){
     sum3num(3, 4, 5);
     sum3num(3, 4, 6);
