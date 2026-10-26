@@ -3,7 +3,7 @@
 
 int main(){
     int a[5] = {1, 2, 3, 4, 5};
-    printf("%d\n", a); //a la hang con tro
+    printf("%d\n", a); //a la hang con tro thi a + i cung la con tro tro den i
     printf("%d\n", &a[0]);
 
     for (int i = 0; i < 5; i++)
